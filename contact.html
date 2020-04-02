@@ -1,0 +1,136 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <!--linking css, bootstrap, etc...-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" text="text/css" href="assets/css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Courgette|Playfair+Display&display=swap" rel="stylesheet">
+
+      <title>Contact Me</title>
+  </head>
+
+  <body>
+<!--Header and Nav Bar begin-->
+      <header>
+          <div class="container text-center">
+              <h1>Michael Stoddard</h1>
+
+              <!--Nav Bar start - used project one for reference-->
+              <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </header>
+
+      <!--Contact Us Form-->
+      <div class="containercontactform">
+        <div class="container-contact100">
+          <div class="wrap-contact100">
+              <form class="contact100-form validate-form">
+                  <span class="contact100-form-title">
+                      Get in Touch
+                  </span>
+  
+                  <div class="wrap-input100 validate-input" data-validate="Name is required">
+                      <input class="input100" id="name" type="text" name="name" placeholder="Name">
+                      <label class="label-input100" for="name">
+                          <span class="lnr lnr-user"></span>
+                      </label>
+                  </div>
+  
+                  <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                      <input class="input100" id="email" type="text" name="email" placeholder="Email">
+                      <label class="label-input100" for="email">
+                          <span class="lnr lnr-envelope"></span>
+                      </label>
+                  </div>
+  
+                  <div class="wrap-input100 validate-input" data-validate = "Phone is required">
+                      <input class="input100" id="phone" type="text" name="phone" placeholder="Phone">
+                      <label class="label-input100" for="phone">
+                          <span class="lnr lnr-phone-handset"></span>
+                      </label>
+                  </div>
+  
+                  <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                      <textarea class="input100" name="message" placeholder="Your message..."></textarea>
+                  </div>
+  
+                  <div class="contact100-form-checkbox">
+                      <input class="input-checkbox100" id="ckb1" type="checkbox" name="copy-mail">
+                      <label class="label-checkbox100" for="ckb1">
+                          Send copy to my-email
+                      </label>
+                  </div>
+  
+                  <div class="container-contact100-form-btn">
+                      <div class="wrap-contact100-form-btn">
+                          <div class="contact100-form-bgbtn"></div>
+                          <button class="contact100-form-btn">
+                              Send Email
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+  <br>
+  <!--form ending-->
+      <form class="contactme">
+          <section class="page-section" id="contact">
+              <div class="container1">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-8 text-center">
+
+                          <a target="_blank" href="https://www.linkedin.com/in/michael-stoddard-8a9b66123"><img
+                                  src="assets/images/LinkedIn-Logo.png" alt="linkedin" class="contactimages"></a>
+                          <a target="_blank" href="https://github.com/mikeystoddard"><img
+                                  src="assets/images/github_PNG40.png" alt="linkedin" class="contactimages"></a>
+                          <!--add another for resume once resume updated-->
+                          <hr class="divider my-4" />
+                          <!--this part is ugly - need to redo later. I used YouTube for help with this and am not content with how it looks currently-->
+                          <h2 class="mt-0">Please contact me with any questions!</h2>
+                          <br>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                          <div>(480) 323-8799</div>
+                      </div>
+                      <div class="col-lg-4 mr-auto text-center">
+                          <p>Email Address</p>
+                          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                          <a class="d-block" href="mailto:mikeystoddard@gmail.com"
+                              target="_blank">mikeystoddard@gmail.com</a>
+                      </div>
+                  </div>
+              </div>
+
+
+          </section>
+          <!--ending of the ugly part-->
+      </form>
+
+      <footer id="footer" class="container-fluid text-center" style="position: absolute; bottom: 0;">
+        
+      </footer>
+
+
+
+  </body>
+
+  </html>

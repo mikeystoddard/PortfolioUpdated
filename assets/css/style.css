@@ -1,0 +1,44 @@
+.imagescontainer {
+    margin-right: 50px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+#selfimage {
+    width: 200px;
+    height: 200px;
+    margin-left: 275px;
+}
+
+body {
+    background-image: url(/Users/user/Documents/uawork/homework/PortfolioUpdated/assets/images/dust_scratches.png);
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    background: black;
+    color: white;
+    height: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.contactimages {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    background: black;
+    color: white;
+    width: 100%;
+}
+.containercontactform {
+    margin-left: 650px;
+    border-width: 1px;
+}
