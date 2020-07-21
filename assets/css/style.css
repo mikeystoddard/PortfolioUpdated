@@ -20,10 +20,21 @@ body {
     margin: 0px;
 }
 
+.img-responsive {
+    width: 400px;
+    height: 150px;
+}
+
 footer {
     background: black;
     color: white;
-    height: 10%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    margin-top: -30ps;
+    width: 100%;
+    clear: both;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
